@@ -36,7 +36,7 @@ disable = false
 disable_http = false      # This node will expose a Secret Store HTTP API
 http_interface = "local"  # The HTTP API is available locally only
 http_port = 8010          # The Secret Store HTTP API is available at this port
-acl_contract = "none"     # Insecure, will be changed later on
+acl_contract = "bf6fc961d5a8a6df82fce0519a3442c90d511447"     # Insecure, will be changed later on
 server_set_contract = "none"
 nodes = [
 	"004057f1e298ed6e62dbddb3d9575d29a7e81dea315cee109899921f7eb1622e7daa6058f060c58f26dcea7ae1c5b52941a97616e6793fd15dc87e11a09b05cd@127.0.0.1:8011",

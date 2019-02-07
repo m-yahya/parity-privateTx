@@ -15,8 +15,8 @@ disable = true # users do not run a secret store node
 
 [private_tx]
 enabled = true                                              # Enable private transactions.
-signer = "0xf026a4c280386e3a950ceb9c2a64f77c24f8d170"       # Alice's account to sign public transactions created upon verified private transaction.
-account = "0xf026a4c280386e3a950ceb9c2a64f77c24f8d170"      # Alice's account to sign requests sent to the Secret Store.
+signer = "0x08bcf855503571c673c28fdb31add07c433b005e"       # Alice's account to sign public transactions created upon verified private transaction.
+account = "0x08bcf855503571c673c28fdb31add07c433b005e"      # Alice's account to sign requests sent to the Secret Store.
 passwords = "alice.pwd"                                     # File containing the password to unlock Alice accounts (signer, private account, validators).
 sstore_url = "http://127.0.0.1:8010"                        # Specify secret store URL used for encrypting private transactions.
 
@@ -31,7 +31,7 @@ bootnodes = [
 ]
 
 [account] # unlock Alice's account to deploy the contract
-unlock = ["0xf026a4c280386e3a950ceb9c2a64f77c24f8d170"]
+unlock = ["0x08bcf855503571c673c28fdb31add07c433b005e"]
 password = ["alice.pwd"]
 
 [misc]

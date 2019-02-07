@@ -648,3 +648,75 @@
   block_align=false
   enable_index_compression=true
   
+
+[CFOptions "col7"]
+  level0_file_num_compaction_trigger=2
+  merge_operator=nullptr
+  report_bg_io_stats=false
+  max_bytes_for_level_base=16777216
+  disable_auto_compactions=false
+  max_bytes_for_level_multiplier=10.000000
+  inplace_update_support=false
+  num_levels=7
+  target_file_size_base=67108864
+  paranoid_file_checks=false
+  level_compaction_dynamic_level_bytes=true
+  compression_per_level=
+  optimize_filters_for_hits=false
+  min_write_buffer_number_to_merge=2
+  memtable_prefix_bloom_size_ratio=0.000000
+  force_consistency_checks=false
+  soft_pending_compaction_bytes_limit=68719476736
+  hard_pending_compaction_bytes_limit=274877906944
+  max_compaction_bytes=1677721600
+  max_sequential_skip_in_iterations=8
+  level0_slowdown_writes_trigger=20
+  level0_stop_writes_trigger=36
+  compaction_filter_factory=nullptr
+  max_write_buffer_number=6
+  bloom_locality=0
+  max_write_buffer_number_to_maintain=0
+  target_file_size_multiplier=1
+  memtable_insert_with_hint_prefix_extractor=nullptr
+  arena_block_size=524288
+  prefix_extractor=nullptr
+  table_factory=BlockBasedTable
+  inplace_update_num_locks=10000
+  max_successive_merges=0
+  memtable_huge_page_size=0
+  compaction_style=kCompactionStyleLevel
+  write_buffer_size=4194304
+  max_bytes_for_level_multiplier_additional=1:1:1:1:1:1:1
+  compression=kSnappyCompression
+  bottommost_compression=kDisableCompressionOption
+  comparator=leveldb.BytewiseComparator
+  memtable_factory=SkipListFactory
+  compaction_options_universal={allow_trivial_move=false;max_size_amplification_percent=200;size_ratio=1;stop_style=kCompactionStopStyleTotalSize;min_merge_width=2;compression_size_percent=-1;max_merge_width=4294967295;}
+  compaction_filter=nullptr
+  compaction_pri=kByCompensatedSize
+  compaction_options_fifo={allow_compaction=false;max_table_files_size=1073741824;ttl=0;}
+  ttl=0
+  
+[TableOptions/BlockBasedTable "col7"]
+  flush_block_policy_factory=FlushBlockBySizePolicyFactory
+  block_size=16384
+  cache_index_and_filter_blocks=true
+  cache_index_and_filter_blocks_with_high_priority=false
+  hash_index_allow_collision=true
+  pin_l0_filter_and_index_blocks_in_cache=true
+  index_type=kBinarySearch
+  checksum=kCRC32c
+  no_block_cache=false
+  block_size_deviation=10
+  block_restart_interval=16
+  index_block_restart_interval=1
+  metadata_block_size=4096
+  partition_filters=false
+  filter_policy=nullptr
+  whole_key_filtering=true
+  format_version=2
+  verify_compression=false
+  read_amp_bytes_per_bit=8589934592
+  block_align=false
+  enable_index_compression=true
+  

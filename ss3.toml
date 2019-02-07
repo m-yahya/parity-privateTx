@@ -34,7 +34,7 @@ disable_periodic = true
 self_secret = "808911787a531787f61bff5f6c0aa82aba9c6a97"
 disable = false
 disable_http = true   # Secret Store nodes 2 and 3 are not accessibles from the outside
-acl_contract = "none" # no permissionning contract used yet
+acl_contract = "bf6fc961d5a8a6df82fce0519a3442c90d511447" # no permissionning contract used yet
 server_set_contract = "none"
 nodes = [
 	"004057f1e298ed6e62dbddb3d9575d29a7e81dea315cee109899921f7eb1622e7daa6058f060c58f26dcea7ae1c5b52941a97616e6793fd15dc87e11a09b05cd@127.0.0.1:8011",
