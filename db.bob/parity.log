@@ -1,0 +1,38 @@
+2019-02-07 15:54:25  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
+2019-02-07 15:54:25  main INFO parity_ethereum::run  Keys path db.bob\keys\DevelopmentChain
+2019-02-07 15:54:25  main INFO parity_ethereum::run  DB path db.bob\chains\DevelopmentChain\db\1484bce8c021f2ca
+2019-02-07 15:54:25  main INFO parity_ethereum::run  State DB configuration: fast
+2019-02-07 15:54:25  main INFO parity_ethereum::run  Operating mode: active
+2019-02-07 15:54:25  main INFO ethcore_service::service  Configured for DevelopmentChain using InstantSeal engine
+2019-02-07 15:54:30  IO Worker #3 INFO network  Public node URL: enode://be8f5b5c447aeb13d3feee35bc79bf547b8734b1a2c248bc6fcd15d7dff7e7d6ebdee0fa9821db8e3776e2ccf6627ceb9965530d73b7db30d6bfb2ab97b87440@127.0.0.1:30304
+2019-02-07 15:54:30  IO Worker #1 DEBUG txqueue  Re-computing pending set for block: 2
+2019-02-07 15:55:00  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:55:30  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:56:00  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:56:30  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:57:00  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:57:30  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:58:00  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:58:30  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:59:00  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:59:30  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:00:00  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:00:30  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:01:00  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:01:30  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:02:00  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:02:30  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:03:00  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:03:30  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:04:00  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:04:30  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:05:00  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:05:30  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:06:00  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:06:30  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:07:00  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:07:30  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:08:00  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:08:30  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:09:00  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:09:17  main INFO parity_ethereum::run  Finishing work, please wait...

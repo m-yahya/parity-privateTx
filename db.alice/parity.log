@@ -1,66 +1,46 @@
-2019-02-07 14:00:55  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
-2019-02-07 14:00:55  main INFO parity_ethereum::run  Keys path db.alice\keys\DevelopmentChain
-2019-02-07 14:00:55  main INFO parity_ethereum::run  DB path db.alice\chains\DevelopmentChain\db\1484bce8c021f2ca
-2019-02-07 14:00:55  main INFO parity_ethereum::run  State DB configuration: fast
-2019-02-07 14:00:55  main INFO parity_ethereum::run  Operating mode: active
-2019-02-07 14:01:21  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
-2019-02-07 14:01:21  main INFO parity_ethereum::run  Keys path db.alice\keys\DevelopmentChain
-2019-02-07 14:01:21  main INFO parity_ethereum::run  DB path db.alice\chains\DevelopmentChain\db\1484bce8c021f2ca
-2019-02-07 14:01:21  main INFO parity_ethereum::run  State DB configuration: fast
-2019-02-07 14:01:21  main INFO parity_ethereum::run  Operating mode: active
-2019-02-07 14:02:54  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
-2019-02-07 14:02:54  main INFO parity_ethereum::run  Keys path db.alice\keys\DevelopmentChain
-2019-02-07 14:02:54  main INFO parity_ethereum::run  DB path db.alice\chains\DevelopmentChain\db\1484bce8c021f2ca
-2019-02-07 14:02:54  main INFO parity_ethereum::run  State DB configuration: fast
-2019-02-07 14:02:54  main INFO parity_ethereum::run  Operating mode: active
-2019-02-07 14:04:13  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
-2019-02-07 14:04:13  main INFO parity_ethereum::run  Keys path db.alice\keys\DevelopmentChain
-2019-02-07 14:04:13  main INFO parity_ethereum::run  DB path db.alice\chains\DevelopmentChain\db\1484bce8c021f2ca
-2019-02-07 14:04:13  main INFO parity_ethereum::run  State DB configuration: fast
-2019-02-07 14:04:13  main INFO parity_ethereum::run  Operating mode: active
-2019-02-07 14:11:09  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
-2019-02-07 14:11:09  main INFO parity_ethereum::run  Keys path db.alice\keys\DevelopmentChain
-2019-02-07 14:11:09  main INFO parity_ethereum::run  DB path db.alice\chains\DevelopmentChain\db\1484bce8c021f2ca
-2019-02-07 14:11:09  main INFO parity_ethereum::run  State DB configuration: fast
-2019-02-07 14:11:09  main INFO parity_ethereum::run  Operating mode: active
-2019-02-07 14:11:10  main INFO ethcore_service::service  Configured for DevelopmentChain using InstantSeal engine
-2019-02-07 14:11:10  main WARN ethcore_sync::api  Network port V4(0.0.0.0:30300) is already in use, make sure that another instance of an Ethereum client is not running or change the port using the --port option.
-2019-02-07 14:11:10  main ERROR ws  Unable to listen on 127.0.0.1:8546
-2019-02-07 14:11:27  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
-2019-02-07 14:11:27  main INFO parity_ethereum::run  Keys path db.alice\keys\DevelopmentChain
-2019-02-07 14:11:27  main INFO parity_ethereum::run  DB path db.alice\chains\DevelopmentChain\db\1484bce8c021f2ca
-2019-02-07 14:11:27  main INFO parity_ethereum::run  State DB configuration: fast
-2019-02-07 14:11:27  main INFO parity_ethereum::run  Operating mode: active
-2019-02-07 14:11:27  main INFO ethcore_service::service  Configured for DevelopmentChain using InstantSeal engine
-2019-02-07 14:11:27  main WARN jsonrpc_http_server  Multi-threaded server is not available on Windows. Falling back to single thread.
-2019-02-07 14:11:32  IO Worker #1 INFO network  Public node URL: enode://d0cce38a3d06e9792d15989174631469599bb5ebd988268fba36591ed0d193b26eb2ddd6af2704c36e50693af46836b30a9eb5a737335821edee814eb8455188@127.0.0.1:30300
-2019-02-07 14:11:57  IO Worker #0 INFO import     0/25 peers      8 KiB chain   18 KiB db  0 bytes queue 448 bytes sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 14:12:13  jsonrpc-eventloop-0 TRACE own_tx  Importing transaction: PendingTransaction { transaction: SignedTransaction { transaction: UnverifiedTransaction { unsigned: Transaction { nonce: 0, gas_price: 0, gas: 214763, action: Create, value: 0, data: [96, 128, 96, 64, 82, 115, 240, 38, 164, 194, 128, 56, 110, 58, 149, 12, 235, 156, 42, 100, 247, 124, 36, 248, 209, 112, 96, 0, 128, 97, 1, 0, 10, 129, 84, 129, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 2, 25, 22, 144, 131, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 2, 23, 144, 85, 80, 115, 63, 78, 249, 72, 253, 115, 7, 232, 43, 103, 187, 67, 138, 217, 225, 78, 106, 234, 124, 77, 96, 1, 96, 0, 97, 1, 0, 10, 129, 84, 129, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 2, 25, 22, 144, 131, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 2, 23, 144, 85, 80, 52, 128, 21, 97, 0, 185, 87, 96, 0, 128, 253, 91, 80, 97, 1, 158, 128, 97, 0, 201, 96, 0, 57, 96, 0, 243, 0, 96, 128, 96, 64, 82, 96, 4, 54, 16, 97, 0, 65, 87, 96, 0, 53, 124, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 144, 4, 99, 255, 255, 255, 255, 22, 128, 99, 179, 106, 154, 124, 20, 97, 0, 70, 87, 91, 96, 0, 128, 253, 91, 52, 128, 21, 97, 0, 82, 87, 96, 0, 128, 253, 91, 80, 97, 0, 149, 96, 4, 128, 54, 3, 129, 1, 144, 128, 128, 53, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 144, 96, 32, 1, 144, 146, 145, 144, 128, 53, 96, 0, 25, 22, 144, 96, 32, 1, 144, 146, 145, 144, 80, 80, 80, 97, 0, 175, 86, 91, 96, 64, 81, 128, 130, 21, 21, 21, 21, 129, 82, 96, 32, 1, 145, 80, 80, 96, 64, 81, 128, 145, 3, 144, 243, 91, 96, 0, 128, 96, 0, 144, 84, 144, 97, 1, 0, 10, 144, 4, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 131, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 20, 128, 97, 1, 89, 87, 80, 96, 1, 96, 0, 144, 84, 144, 97, 1, 0, 10, 144, 4, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 131, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 20, 91, 21, 97, 1, 103, 87, 96, 1, 144, 80, 97, 1, 108, 86, 91, 96, 0, 144, 80, 91, 146, 145, 80, 80, 86, 0, 161, 101, 98, 122, 122, 114, 48, 88, 32, 211, 227, 115, 235, 208, 36, 244, 157, 171, 107, 185, 142, 210, 163, 39, 122, 191, 6, 78, 8, 86, 205, 250, 238, 209, 176, 29, 249, 43, 128, 158, 121, 0, 41] }, v: 70, r: 78055234057156456397763657005046448397140932518030580038792983121475348679893, s: 12552173313538520505690482865578707742978309974465324280578467895018813315438, hash: 0x41de7791317817c406c16fa1d830c4250b76f9e825a86e47cb7a944171e3412e }, sender: 0x08bcf855503571c673c28fdb31add07c433b005e, public: Some(0xe3a2e275cd98d6d1f4e82a51f506fffa1476becba262ac4cb5c7f982235ed193859635199c4190e155808b25d73cfe9cff8be05ae07176ab16c2b8f809f5a9a0) }, condition: None }
-2019-02-07 14:12:13  jsonrpc-eventloop-0 DEBUG own_tx  Imported to the pool (hash 0x41de7791317817c406c16fa1d830c4250b76f9e825a86e47cb7a944171e3412e)
-2019-02-07 14:12:13  jsonrpc-eventloop-0 DEBUG txqueue  [0x41de7791317817c406c16fa1d830c4250b76f9e825a86e47cb7a944171e3412e] Added to the pool.
-2019-02-07 14:12:13  jsonrpc-eventloop-0 DEBUG txqueue  [0x41de7791317817c406c16fa1d830c4250b76f9e825a86e47cb7a944171e3412e] Sender: 0x08bc…005e, nonce: 0, gasPrice: 0, gas: 214763, value: 0, dataLen: 615))
-2019-02-07 14:12:13  jsonrpc-eventloop-0 DEBUG txqueue  Re-computing pending set for block: 0
-2019-02-07 14:12:13  IO Worker #0 INFO own_tx  Transaction mined (hash 0x41de7791317817c406c16fa1d830c4250b76f9e825a86e47cb7a944171e3412e)
-2019-02-07 14:12:13  jsonrpc-eventloop-0 INFO import  Imported #1 0x2028…4f58 (1 txs, 0.21 Mgas, 1 ms, 1.17 KiB)
-2019-02-07 14:12:13  IO Worker #0 DEBUG txqueue  [0x41de7791317817c406c16fa1d830c4250b76f9e825a86e47cb7a944171e3412e] Culled or mined.
-2019-02-07 14:12:13  IO Worker #0 DEBUG txqueue  Removed 1 stalled transactions. Pool: 0/8192 (0 senders; 0/4096 kB) [minGasPrice: 0 Mwei, maxGas: 8000000]
-
-2019-02-07 14:12:19  jsonrpc-eventloop-0 TRACE own_tx  Importing transaction: PendingTransaction { transaction: SignedTransaction { transaction: UnverifiedTransaction { unsigned: Transaction { nonce: 1, gas_price: 0, gas: 214763, action: Create, value: 0, data: [96, 128, 96, 64, 82, 115, 240, 38, 164, 194, 128, 56, 110, 58, 149, 12, 235, 156, 42, 100, 247, 124, 36, 248, 209, 112, 96, 0, 128, 97, 1, 0, 10, 129, 84, 129, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 2, 25, 22, 144, 131, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 2, 23, 144, 85, 80, 115, 63, 78, 249, 72, 253, 115, 7, 232, 43, 103, 187, 67, 138, 217, 225, 78, 106, 234, 124, 77, 96, 1, 96, 0, 97, 1, 0, 10, 129, 84, 129, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 2, 25, 22, 144, 131, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 2, 23, 144, 85, 80, 52, 128, 21, 97, 0, 185, 87, 96, 0, 128, 253, 91, 80, 97, 1, 158, 128, 97, 0, 201, 96, 0, 57, 96, 0, 243, 0, 96, 128, 96, 64, 82, 96, 4, 54, 16, 97, 0, 65, 87, 96, 0, 53, 124, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 144, 4, 99, 255, 255, 255, 255, 22, 128, 99, 179, 106, 154, 124, 20, 97, 0, 70, 87, 91, 96, 0, 128, 253, 91, 52, 128, 21, 97, 0, 82, 87, 96, 0, 128, 253, 91, 80, 97, 0, 149, 96, 4, 128, 54, 3, 129, 1, 144, 128, 128, 53, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 144, 96, 32, 1, 144, 146, 145, 144, 128, 53, 96, 0, 25, 22, 144, 96, 32, 1, 144, 146, 145, 144, 80, 80, 80, 97, 0, 175, 86, 91, 96, 64, 81, 128, 130, 21, 21, 21, 21, 129, 82, 96, 32, 1, 145, 80, 80, 96, 64, 81, 128, 145, 3, 144, 243, 91, 96, 0, 128, 96, 0, 144, 84, 144, 97, 1, 0, 10, 144, 4, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 131, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 20, 128, 97, 1, 89, 87, 80, 96, 1, 96, 0, 144, 84, 144, 97, 1, 0, 10, 144, 4, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 131, 115, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 22, 20, 91, 21, 97, 1, 103, 87, 96, 1, 144, 80, 97, 1, 108, 86, 91, 96, 0, 144, 80, 91, 146, 145, 80, 80, 86, 0, 161, 101, 98, 122, 122, 114, 48, 88, 32, 211, 227, 115, 235, 208, 36, 244, 157, 171, 107, 185, 142, 210, 163, 39, 122, 191, 6, 78, 8, 86, 205, 250, 238, 209, 176, 29, 249, 43, 128, 158, 121, 0, 41] }, v: 70, r: 8000730505903821387359556488799729078042854204595900898234053656991816201689, s: 23811128463514612536592148768221197294945595415430564872679519832746649681974, hash: 0x4e8d6699f405cc84e3c6ab1238c1008a4a2eebb86cf484e4ec75c2f4ebfda19e }, sender: 0x08bcf855503571c673c28fdb31add07c433b005e, public: Some(0xe3a2e275cd98d6d1f4e82a51f506fffa1476becba262ac4cb5c7f982235ed193859635199c4190e155808b25d73cfe9cff8be05ae07176ab16c2b8f809f5a9a0) }, condition: None }
-2019-02-07 14:12:19  jsonrpc-eventloop-0 DEBUG own_tx  Imported to the pool (hash 0x4e8d6699f405cc84e3c6ab1238c1008a4a2eebb86cf484e4ec75c2f4ebfda19e)
-2019-02-07 14:12:19  jsonrpc-eventloop-0 DEBUG txqueue  [0x4e8d6699f405cc84e3c6ab1238c1008a4a2eebb86cf484e4ec75c2f4ebfda19e] Added to the pool.
-2019-02-07 14:12:19  jsonrpc-eventloop-0 DEBUG txqueue  [0x4e8d6699f405cc84e3c6ab1238c1008a4a2eebb86cf484e4ec75c2f4ebfda19e] Sender: 0x08bc…005e, nonce: 1, gasPrice: 0, gas: 214763, value: 0, dataLen: 615))
-2019-02-07 14:12:19  jsonrpc-eventloop-0 DEBUG txqueue  Re-computing pending set for block: 1
-2019-02-07 14:12:19  jsonrpc-eventloop-0 INFO import  Imported #2 0xe567…1e57 (1 txs, 0.21 Mgas, 0 ms, 1.17 KiB)
-2019-02-07 14:12:19  IO Worker #3 INFO own_tx  Transaction mined (hash 0x4e8d6699f405cc84e3c6ab1238c1008a4a2eebb86cf484e4ec75c2f4ebfda19e)
-2019-02-07 14:12:19  IO Worker #3 DEBUG txqueue  [0x4e8d6699f405cc84e3c6ab1238c1008a4a2eebb86cf484e4ec75c2f4ebfda19e] Culled or mined.
-2019-02-07 14:12:19  IO Worker #3 DEBUG txqueue  Removed 1 stalled transactions. Pool: 0/8192 (0 senders; 0/4096 kB) [minGasPrice: 0 Mwei, maxGas: 8000000]
-
-2019-02-07 14:12:28  IO Worker #1 INFO import     0/25 peers     14 KiB chain   21 KiB db  0 bytes queue 448 bytes sync  RPC:  0 conn,    3 req/s,  126 µs
-2019-02-07 14:12:58  IO Worker #0 INFO import     0/25 peers     14 KiB chain   21 KiB db  0 bytes queue 448 bytes sync  RPC:  0 conn,    1 req/s,  109 µs
-2019-02-07 14:13:28  IO Worker #3 INFO import     0/25 peers     14 KiB chain   21 KiB db  0 bytes queue 448 bytes sync  RPC:  0 conn,    0 req/s,   50 µs
-2019-02-07 14:13:58  IO Worker #0 INFO import     0/25 peers     14 KiB chain   21 KiB db  0 bytes queue 448 bytes sync  RPC:  0 conn,    1 req/s,   48 µs
-2019-02-07 14:14:28  IO Worker #2 INFO import     0/25 peers     14 KiB chain   21 KiB db  0 bytes queue 448 bytes sync  RPC:  0 conn,    1 req/s,   48 µs
-2019-02-07 14:14:58  IO Worker #0 INFO import     0/25 peers     14 KiB chain   21 KiB db  0 bytes queue 448 bytes sync  RPC:  0 conn,    5 req/s,   45 µs
-2019-02-07 14:15:07  main INFO parity_ethereum::run  Finishing work, please wait...
-2019-02-07 14:16:07  main WARN parity_ethereum::run  Shutdown is taking longer than expected.
-2019-02-07 14:20:07  main WARN parity_ethereum::run  Shutdown timeout reached, exiting uncleanly.
+2019-02-07 15:51:47  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
+2019-02-07 15:51:47  main INFO parity_ethereum::run  Keys path db.alice\keys\DevelopmentChain
+2019-02-07 15:51:47  main INFO parity_ethereum::run  DB path db.alice\chains\DevelopmentChain\db\1484bce8c021f2ca
+2019-02-07 15:51:47  main INFO parity_ethereum::run  State DB configuration: fast
+2019-02-07 15:51:47  main INFO parity_ethereum::run  Operating mode: active
+2019-02-07 15:51:47  main INFO ethcore_service::service  Configured for DevelopmentChain using InstantSeal engine
+2019-02-07 15:51:47  main WARN jsonrpc_http_server  Multi-threaded server is not available on Windows. Falling back to single thread.
+2019-02-07 15:51:52  IO Worker #3 INFO network  Public node URL: enode://d0cce38a3d06e9792d15989174631469599bb5ebd988268fba36591ed0d193b26eb2ddd6af2704c36e50693af46836b30a9eb5a737335821edee814eb8455188@127.0.0.1:30300
+2019-02-07 15:52:22  IO Worker #3 INFO import     1/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    1 req/s,  116 µs
+2019-02-07 15:52:22  IO Worker #3 DEBUG txqueue  Re-computing pending set for block: 2
+2019-02-07 15:52:52  IO Worker #1 INFO import     3/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    1 req/s,   58 µs
+2019-02-07 15:53:22  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    2 req/s,   58 µs
+2019-02-07 15:53:52  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    2 req/s,   58 µs
+2019-02-07 15:54:22  IO Worker #0 INFO import     3/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   62 µs
+2019-02-07 15:54:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   52 µs
+2019-02-07 15:55:22  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   52 µs
+2019-02-07 15:55:52  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   46 µs
+2019-02-07 15:56:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    4 req/s,   45 µs
+2019-02-07 15:56:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    5 req/s,   44 µs
+2019-02-07 15:57:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   47 µs
+2019-02-07 15:57:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    5 req/s,   50 µs
+2019-02-07 15:58:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   50 µs
+2019-02-07 15:58:52  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    6 req/s,   42 µs
+2019-02-07 15:59:22  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    6 req/s,   41 µs
+2019-02-07 15:59:52  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    7 req/s,   41 µs
+2019-02-07 16:00:22  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   54 µs
+2019-02-07 16:00:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    8 req/s,   59 µs
+2019-02-07 16:01:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    8 req/s,   59 µs
+2019-02-07 16:01:52  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   54 µs
+2019-02-07 16:02:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    9 req/s,   49 µs
+2019-02-07 16:02:52  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   48 µs
+2019-02-07 16:03:22  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,   10 req/s,   50 µs
+2019-02-07 16:03:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   51 µs
+2019-02-07 16:04:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,   11 req/s,   59 µs
+2019-02-07 16:04:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,   11 req/s,   39 µs
+2019-02-07 16:05:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,   12 req/s,   39 µs
+2019-02-07 16:05:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   36 µs
+2019-02-07 16:06:22  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,   12 req/s,   37 µs
+2019-02-07 16:06:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,   46 µs
+2019-02-07 16:07:22  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,   13 req/s,   46 µs
+2019-02-07 16:07:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,   13 req/s,   43 µs
+2019-02-07 16:08:22  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,   14 req/s,   36 µs
+2019-02-07 16:08:52  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,   14 req/s,   40 µs
+2019-02-07 16:09:16  main INFO parity_ethereum::run  Finishing work, please wait...
+2019-02-07 16:10:16  main WARN parity_ethereum::run  Shutdown is taking longer than expected.
+2019-02-07 16:14:16  main WARN parity_ethereum::run  Shutdown timeout reached, exiting uncleanly.

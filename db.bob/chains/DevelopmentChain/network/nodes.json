@@ -1,21 +1,31 @@
 {
   "nodes": [
     {
-      "url": "enode://4295cf1b34c498304c466728075dd0cca46f84a822d6d80f948dce9d002c1bf3c1789c14fea45eba13e4f5f844a260393bac26883ed39ce16256f1ab80e68887@127.0.0.1:30303",
+      "url": "enode://d0cce38a3d06e9792d15989174631469599bb5ebd988268fba36591ed0d193b26eb2ddd6af2704c36e50693af46836b30a9eb5a737335821edee814eb8455188@127.0.0.1:30300",
       "last_contact": {
-        "failure": 1549538540
+        "success": 1549551271
       }
     },
     {
       "url": "enode://23a771e782b034c7f6047283077f170cd427d320d85cfb0d953eddcb02493d5db5cf8f884f85491be46b0081c8be04b48f5aa3c093d9378ce31b33d0287bea8c@127.0.0.1:30302",
       "last_contact": {
-        "failure": 1549538540
+        "success": 1549551270
       }
     },
     {
       "url": "enode://a957d67a71832e9b6ca3320598c3cd1353494a438dd50f28c85f0da21cc4817fd74280464552a7ba2756839539a99fbe02d4c43537bf3b5757cad2a2d23ba81f@127.0.0.1:30301",
       "last_contact": {
-        "failure": 1549538540
+        "success": 1549551270
+      }
+    },
+    {
+      "url": "enode://be8f5b5c447aeb13d3feee35bc79bf547b8734b1a2c248bc6fcd15d7dff7e7d6ebdee0fa9821db8e3776e2ccf6627ceb9965530d73b7db30d6bfb2ab97b87440@127.0.0.1:30304",
+      "last_contact": null
+    },
+    {
+      "url": "enode://4295cf1b34c498304c466728075dd0cca46f84a822d6d80f948dce9d002c1bf3c1789c14fea45eba13e4f5f844a260393bac26883ed39ce16256f1ab80e68887@127.0.0.1:30303",
+      "last_contact": {
+        "failure": 1549551270
       }
     }
   ]

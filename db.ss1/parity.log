@@ -1,0 +1,50 @@
+2019-02-07 15:52:30  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
+2019-02-07 15:52:30  main INFO parity_ethereum::run  Keys path db.ss1\keys\DevelopmentChain
+2019-02-07 15:52:30  main INFO parity_ethereum::run  DB path db.ss1\chains\DevelopmentChain\db\1484bce8c021f2ca
+2019-02-07 15:52:30  main INFO parity_ethereum::run  State DB configuration: fast
+2019-02-07 15:52:30  main INFO parity_ethereum::run  Operating mode: active
+2019-02-07 15:52:30  main INFO ethcore_service::service  Configured for DevelopmentChain using InstantSeal engine
+2019-02-07 15:52:30  main INFO parity_ethereum::secretstore::server  Starting SecretStore node: 0x004057f1e298ed6e62dbddb3d9575d29a7e81dea315cee109899921f7eb1622e7daa6058f060c58f26dcea7ae1c5b52941a97616e6793fd15dc87e11a09b05cd
+2019-02-07 15:52:32  tokio-runtime-worker-3 WARN secretstore_net  0x0040…05cd: network error 'No connection could be made because the target machine actively refused it. (os error 10061)' when establishing outbound connection with 127.0.0.1:8012
+2019-02-07 15:52:32  tokio-runtime-worker-3 WARN secretstore_net  0x0040…05cd: network error 'No connection could be made because the target machine actively refused it. (os error 10061)' when establishing outbound connection with 127.0.0.1:8013
+2019-02-07 15:52:35  IO Worker #0 INFO network  Public node URL: enode://a957d67a71832e9b6ca3320598c3cd1353494a438dd50f28c85f0da21cc4817fd74280464552a7ba2756839539a99fbe02d4c43537bf3b5757cad2a2d23ba81f@127.0.0.1:30301
+2019-02-07 15:52:37  IO Worker #0 DEBUG txqueue  Re-computing pending set for block: 2
+2019-02-07 15:52:42  tokio-runtime-worker-3 WARN secretstore_net  0x0040…05cd: network error 'No connection could be made because the target machine actively refused it. (os error 10061)' when establishing outbound connection with 127.0.0.1:8013
+2019-02-07 15:53:01  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:53:36  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:54:06  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:54:36  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:55:06  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:55:36  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:56:06  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:56:36  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:57:06  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:57:36  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:58:06  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:58:36  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:59:11  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 15:59:41  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:00:11  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:00:14  tokio-runtime-worker-1 WARN secretstore_net  0x0040…05cd: decryption session error 'Consensus unreachable' when processing message Decryption.DecryptionConsensusMessage.ConfirmConsensusInitialization(false) from node 0xc1bc…e4f2
+2019-02-07 16:00:14  tokio-runtime-worker-3 WARN secretstore  GetDocumentKey request /000000000000000000000000b58bb3c62d8a290d7fca87405faeec371d66f100/235001b1c4e9152ee97da144e177421fa141b18c0732eab94a0750418e2c665107dc34950a69643db79d9f60e5de667b2be4b98d160b48a77cc321f3820a55be00 has failed with: Consensus unreachable
+2019-02-07 16:00:41  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:01:11  IO Worker #1 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:01:41  IO Worker #0 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:02:11  IO Worker #1 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:02:41  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:03:11  IO Worker #3 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:03:41  IO Worker #3 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:03:57  tokio-runtime-worker-3 WARN secretstore_net  0x0040…05cd: decryption session error 'Consensus unreachable' when processing message Decryption.DecryptionConsensusMessage.ConfirmConsensusInitialization(false) from node 0xc1bc…e4f2
+2019-02-07 16:03:57  tokio-runtime-worker-0 WARN secretstore  GetDocumentKey request /000000000000000000000000b58bb3c62d8a290d7fca87405faeec371d66f100/235001b1c4e9152ee97da144e177421fa141b18c0732eab94a0750418e2c665107dc34950a69643db79d9f60e5de667b2be4b98d160b48a77cc321f3820a55be00 has failed with: Consensus unreachable
+2019-02-07 16:04:11  IO Worker #0 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:04:41  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:05:11  IO Worker #3 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:05:41  IO Worker #3 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:06:11  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:06:41  IO Worker #3 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:07:16  IO Worker #1 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:07:46  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:08:16  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:08:46  IO Worker #1 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:09:16  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:09:18  main INFO parity_ethereum::run  Finishing work, please wait...
