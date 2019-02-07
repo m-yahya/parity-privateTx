@@ -47,3 +47,8 @@ path = "db.ss3/secretstore"
 
 [account]
 password = ["ss3.pwd"]
+
+[misc]
+logging = "transaction_pool=trace,txqueue=trace,ethcore_private_tx=trace,own_tx=trace"
+log_file = "./db.ss3/parity.log"
+color = true
