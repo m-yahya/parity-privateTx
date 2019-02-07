@@ -1,94 +1,94 @@
-2019/02/07-15:52:30.977527 3c04 RocksDB version: 5.14.3
-2019/02/07-15:52:30.977583 3c04 Git sha rocksdb_build_git_sha:@0@
-2019/02/07-15:52:30.977617 3c04 Compile date Jan 17 2019
-2019/02/07-15:52:30.977643 3c04 DB SUMMARY
-2019/02/07-15:52:30.977751 3c04 CURRENT file:  CURRENT
-2019/02/07-15:52:30.977780 3c04 IDENTITY file:  IDENTITY
-2019/02/07-15:52:30.977815 3c04 MANIFEST file:  MANIFEST-000008 size: 98 Bytes
-2019/02/07-15:52:30.977843 3c04 SST files in db.ss1\secretstore\db dir, Total Num: 1, files: 000004.sst 
-2019/02/07-15:52:30.977869 3c04 Write Ahead Log file in db.ss1\secretstore\db: 000009.log size: 2466 ; 
-2019/02/07-15:52:30.977894 3c04                         Options.error_if_exists: 0
-2019/02/07-15:52:30.977920 3c04                       Options.create_if_missing: 1
-2019/02/07-15:52:30.978051 3c04                         Options.paranoid_checks: 1
-2019/02/07-15:52:30.978072 3c04                                     Options.env: 0000022639A4E0C0
-2019/02/07-15:52:30.978086 3c04                                Options.info_log: 000002263BB298C0
-2019/02/07-15:52:30.978098 3c04                Options.max_file_opening_threads: 16
-2019/02/07-15:52:30.978109 3c04                              Options.statistics: 0000000000000000
-2019/02/07-15:52:30.978120 3c04                               Options.use_fsync: 0
-2019/02/07-15:52:30.978132 3c04                       Options.max_log_file_size: 0
-2019/02/07-15:52:30.978143 3c04                  Options.max_manifest_file_size: 18446744073709551615
-2019/02/07-15:52:30.978155 3c04                   Options.log_file_time_to_roll: 0
-2019/02/07-15:52:30.978166 3c04                       Options.keep_log_file_num: 1
-2019/02/07-15:52:30.978177 3c04                    Options.recycle_log_file_num: 0
-2019/02/07-15:52:30.978192 3c04                         Options.allow_fallocate: 1
-2019/02/07-15:52:30.978204 3c04                        Options.allow_mmap_reads: 0
-2019/02/07-15:52:30.978215 3c04                       Options.allow_mmap_writes: 0
-2019/02/07-15:52:30.978226 3c04                        Options.use_direct_reads: 0
-2019/02/07-15:52:30.978238 3c04                        Options.use_direct_io_for_flush_and_compaction: 0
-2019/02/07-15:52:30.978249 3c04          Options.create_missing_column_families: 0
-2019/02/07-15:52:30.978260 3c04                              Options.db_log_dir: 
-2019/02/07-15:52:30.978272 3c04                                 Options.wal_dir: db.ss1\secretstore\db
-2019/02/07-15:52:30.978283 3c04                Options.table_cache_numshardbits: 6
-2019/02/07-15:52:30.978295 3c04                      Options.max_subcompactions: 1
-2019/02/07-15:52:30.978306 3c04                  Options.max_background_flushes: -1
-2019/02/07-15:52:30.978317 3c04                         Options.WAL_ttl_seconds: 0
-2019/02/07-15:52:30.978329 3c04                       Options.WAL_size_limit_MB: 0
-2019/02/07-15:52:30.978340 3c04             Options.manifest_preallocation_size: 4194304
-2019/02/07-15:52:30.978351 3c04                     Options.is_fd_close_on_exec: 1
-2019/02/07-15:52:30.978363 3c04                   Options.advise_random_on_open: 1
-2019/02/07-15:52:30.978374 3c04                    Options.db_write_buffer_size: 67108864
-2019/02/07-15:52:30.978385 3c04                    Options.write_buffer_manager: 000002263B395DC0
-2019/02/07-15:52:30.978397 3c04         Options.access_hint_on_compaction_start: 1
-2019/02/07-15:52:30.978408 3c04  Options.new_table_reader_for_compaction_inputs: 0
-2019/02/07-15:52:30.978419 3c04           Options.random_access_max_buffer_size: 1048576
-2019/02/07-15:52:30.978430 3c04                      Options.use_adaptive_mutex: 0
-2019/02/07-15:52:30.978442 3c04                            Options.rate_limiter: 0000000000000000
-2019/02/07-15:52:30.978453 3c04     Options.sst_file_manager.rate_bytes_per_sec: 0
-2019/02/07-15:52:30.978464 3c04                       Options.wal_recovery_mode: 2
-2019/02/07-15:52:30.978476 3c04                  Options.enable_thread_tracking: 0
-2019/02/07-15:52:30.978487 3c04                  Options.enable_pipelined_write: 0
-2019/02/07-15:52:30.978530 3c04         Options.allow_concurrent_memtable_write: 1
-2019/02/07-15:52:30.978545 3c04      Options.enable_write_thread_adaptive_yield: 1
-2019/02/07-15:52:30.978556 3c04             Options.write_thread_max_yield_usec: 100
-2019/02/07-15:52:30.978568 3c04            Options.write_thread_slow_yield_usec: 3
-2019/02/07-15:52:30.978579 3c04                               Options.row_cache: None
-2019/02/07-15:52:30.978590 3c04                              Options.wal_filter: None
-2019/02/07-15:52:30.978602 3c04             Options.avoid_flush_during_recovery: 0
-2019/02/07-15:52:30.978613 3c04             Options.allow_ingest_behind: 0
-2019/02/07-15:52:30.978628 3c04             Options.preserve_deletes: 0
-2019/02/07-15:52:30.978639 3c04             Options.two_write_queues: 0
-2019/02/07-15:52:30.978650 3c04             Options.manual_wal_flush: 0
-2019/02/07-15:52:30.978661 3c04             Options.max_background_jobs: 2
-2019/02/07-15:52:30.978672 3c04             Options.max_background_compactions: -1
-2019/02/07-15:52:30.978684 3c04             Options.avoid_flush_during_shutdown: 0
-2019/02/07-15:52:30.978695 3c04           Options.writable_file_max_buffer_size: 1048576
-2019/02/07-15:52:30.978706 3c04             Options.delayed_write_rate : 16777216
-2019/02/07-15:52:30.978717 3c04             Options.max_total_wal_size: 0
-2019/02/07-15:52:30.978729 3c04             Options.delete_obsolete_files_period_micros: 21600000000
-2019/02/07-15:52:30.978740 3c04                   Options.stats_dump_period_sec: 600
-2019/02/07-15:52:30.978751 3c04                          Options.max_open_files: 512
-2019/02/07-15:52:30.978763 3c04                          Options.bytes_per_sync: 1048576
-2019/02/07-15:52:30.978774 3c04                      Options.wal_bytes_per_sync: 0
-2019/02/07-15:52:30.978785 3c04       Options.compaction_readahead_size: 0
-2019/02/07-15:52:30.978797 3c04 Compression algorithms supported:
-2019/02/07-15:52:30.978808 3c04 	kZSTD supported: 0
-2019/02/07-15:52:30.978819 3c04 	kSnappyCompression supported: 1
-2019/02/07-15:52:30.978830 3c04 	kBZip2Compression supported: 0
-2019/02/07-15:52:30.978841 3c04 	kZlibCompression supported: 0
-2019/02/07-15:52:30.978852 3c04 	kLZ4Compression supported: 0
-2019/02/07-15:52:30.978863 3c04 	kXpressCompression supported: 0
-2019/02/07-15:52:30.978874 3c04 	kLZ4HCCompression supported: 0
-2019/02/07-15:52:30.978886 3c04 	kZSTDNotFinalCompression supported: 0
-2019/02/07-15:52:30.978897 3c04 Fast CRC32 supported: Not supported on x86
-2019/02/07-15:52:30.979713 3c04 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000008
-2019/02/07-15:52:30.981693 3c04 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
-2019/02/07-15:52:30.981715 3c04               Options.comparator: leveldb.BytewiseComparator
-2019/02/07-15:52:30.981727 3c04           Options.merge_operator: None
-2019/02/07-15:52:30.981739 3c04        Options.compaction_filter: None
-2019/02/07-15:52:30.981750 3c04        Options.compaction_filter_factory: None
-2019/02/07-15:52:30.981761 3c04         Options.memtable_factory: SkipListFactory
-2019/02/07-15:52:30.981773 3c04            Options.table_factory: BlockBasedTable
-2019/02/07-15:52:30.981824 3c04            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000002263BB039D0)
+2019/02/07-16:53:17.362027 37c8 RocksDB version: 5.14.3
+2019/02/07-16:53:17.362112 37c8 Git sha rocksdb_build_git_sha:@0@
+2019/02/07-16:53:17.362141 37c8 Compile date Jan 17 2019
+2019/02/07-16:53:17.362178 37c8 DB SUMMARY
+2019/02/07-16:53:17.362278 37c8 CURRENT file:  CURRENT
+2019/02/07-16:53:17.362306 37c8 IDENTITY file:  IDENTITY
+2019/02/07-16:53:17.362339 37c8 MANIFEST file:  MANIFEST-000017 size: 187 Bytes
+2019/02/07-16:53:17.362365 37c8 SST files in db.ss1\secretstore\db dir, Total Num: 2, files: 000004.sst 000010.sst 
+2019/02/07-16:53:17.362390 37c8 Write Ahead Log file in db.ss1\secretstore\db: 000018.log size: 0 ; 
+2019/02/07-16:53:17.362414 37c8                         Options.error_if_exists: 0
+2019/02/07-16:53:17.362438 37c8                       Options.create_if_missing: 1
+2019/02/07-16:53:17.363191 37c8                         Options.paranoid_checks: 1
+2019/02/07-16:53:17.363207 37c8                                     Options.env: 00000261503ED4E0
+2019/02/07-16:53:17.363219 37c8                                Options.info_log: 00000261522267C0
+2019/02/07-16:53:17.363230 37c8                Options.max_file_opening_threads: 16
+2019/02/07-16:53:17.363240 37c8                              Options.statistics: 0000000000000000
+2019/02/07-16:53:17.363251 37c8                               Options.use_fsync: 0
+2019/02/07-16:53:17.363262 37c8                       Options.max_log_file_size: 0
+2019/02/07-16:53:17.363273 37c8                  Options.max_manifest_file_size: 18446744073709551615
+2019/02/07-16:53:17.363284 37c8                   Options.log_file_time_to_roll: 0
+2019/02/07-16:53:17.363295 37c8                       Options.keep_log_file_num: 1
+2019/02/07-16:53:17.363305 37c8                    Options.recycle_log_file_num: 0
+2019/02/07-16:53:17.363316 37c8                         Options.allow_fallocate: 1
+2019/02/07-16:53:17.363327 37c8                        Options.allow_mmap_reads: 0
+2019/02/07-16:53:17.363338 37c8                       Options.allow_mmap_writes: 0
+2019/02/07-16:53:17.363348 37c8                        Options.use_direct_reads: 0
+2019/02/07-16:53:17.363359 37c8                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/02/07-16:53:17.363370 37c8          Options.create_missing_column_families: 0
+2019/02/07-16:53:17.363380 37c8                              Options.db_log_dir: 
+2019/02/07-16:53:17.363391 37c8                                 Options.wal_dir: db.ss1\secretstore\db
+2019/02/07-16:53:17.363402 37c8                Options.table_cache_numshardbits: 6
+2019/02/07-16:53:17.363413 37c8                      Options.max_subcompactions: 1
+2019/02/07-16:53:17.363424 37c8                  Options.max_background_flushes: -1
+2019/02/07-16:53:17.363434 37c8                         Options.WAL_ttl_seconds: 0
+2019/02/07-16:53:17.363445 37c8                       Options.WAL_size_limit_MB: 0
+2019/02/07-16:53:17.363456 37c8             Options.manifest_preallocation_size: 4194304
+2019/02/07-16:53:17.363467 37c8                     Options.is_fd_close_on_exec: 1
+2019/02/07-16:53:17.363477 37c8                   Options.advise_random_on_open: 1
+2019/02/07-16:53:17.363488 37c8                    Options.db_write_buffer_size: 67108864
+2019/02/07-16:53:17.363499 37c8                    Options.write_buffer_manager: 00000261523AC8D0
+2019/02/07-16:53:17.363510 37c8         Options.access_hint_on_compaction_start: 1
+2019/02/07-16:53:17.363520 37c8  Options.new_table_reader_for_compaction_inputs: 0
+2019/02/07-16:53:17.363531 37c8           Options.random_access_max_buffer_size: 1048576
+2019/02/07-16:53:17.363542 37c8                      Options.use_adaptive_mutex: 0
+2019/02/07-16:53:17.363553 37c8                            Options.rate_limiter: 0000000000000000
+2019/02/07-16:53:17.363564 37c8     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/02/07-16:53:17.363574 37c8                       Options.wal_recovery_mode: 2
+2019/02/07-16:53:17.363585 37c8                  Options.enable_thread_tracking: 0
+2019/02/07-16:53:17.363596 37c8                  Options.enable_pipelined_write: 0
+2019/02/07-16:53:17.363632 37c8         Options.allow_concurrent_memtable_write: 1
+2019/02/07-16:53:17.363645 37c8      Options.enable_write_thread_adaptive_yield: 1
+2019/02/07-16:53:17.363656 37c8             Options.write_thread_max_yield_usec: 100
+2019/02/07-16:53:17.363667 37c8            Options.write_thread_slow_yield_usec: 3
+2019/02/07-16:53:17.363678 37c8                               Options.row_cache: None
+2019/02/07-16:53:17.363689 37c8                              Options.wal_filter: None
+2019/02/07-16:53:17.363699 37c8             Options.avoid_flush_during_recovery: 0
+2019/02/07-16:53:17.363710 37c8             Options.allow_ingest_behind: 0
+2019/02/07-16:53:17.363721 37c8             Options.preserve_deletes: 0
+2019/02/07-16:53:17.363731 37c8             Options.two_write_queues: 0
+2019/02/07-16:53:17.363742 37c8             Options.manual_wal_flush: 0
+2019/02/07-16:53:17.363752 37c8             Options.max_background_jobs: 2
+2019/02/07-16:53:17.363763 37c8             Options.max_background_compactions: -1
+2019/02/07-16:53:17.363774 37c8             Options.avoid_flush_during_shutdown: 0
+2019/02/07-16:53:17.363785 37c8           Options.writable_file_max_buffer_size: 1048576
+2019/02/07-16:53:17.363795 37c8             Options.delayed_write_rate : 16777216
+2019/02/07-16:53:17.363806 37c8             Options.max_total_wal_size: 0
+2019/02/07-16:53:17.363817 37c8             Options.delete_obsolete_files_period_micros: 21600000000
+2019/02/07-16:53:17.363828 37c8                   Options.stats_dump_period_sec: 600
+2019/02/07-16:53:17.363839 37c8                          Options.max_open_files: 512
+2019/02/07-16:53:17.363849 37c8                          Options.bytes_per_sync: 1048576
+2019/02/07-16:53:17.363860 37c8                      Options.wal_bytes_per_sync: 0
+2019/02/07-16:53:17.363871 37c8       Options.compaction_readahead_size: 0
+2019/02/07-16:53:17.363882 37c8 Compression algorithms supported:
+2019/02/07-16:53:17.363893 37c8 	kZSTD supported: 0
+2019/02/07-16:53:17.363903 37c8 	kSnappyCompression supported: 1
+2019/02/07-16:53:17.363914 37c8 	kBZip2Compression supported: 0
+2019/02/07-16:53:17.363924 37c8 	kZlibCompression supported: 0
+2019/02/07-16:53:17.363934 37c8 	kLZ4Compression supported: 0
+2019/02/07-16:53:17.363945 37c8 	kXpressCompression supported: 0
+2019/02/07-16:53:17.363955 37c8 	kLZ4HCCompression supported: 0
+2019/02/07-16:53:17.363966 37c8 	kZSTDNotFinalCompression supported: 0
+2019/02/07-16:53:17.363977 37c8 Fast CRC32 supported: Not supported on x86
+2019/02/07-16:53:17.364713 37c8 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\version_set.cc:3085] Recovering from manifest file: MANIFEST-000017
+2019/02/07-16:53:17.366373 37c8 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\column_family.cc:475] --------------- Options for column family [default]:
+2019/02/07-16:53:17.366397 37c8               Options.comparator: leveldb.BytewiseComparator
+2019/02/07-16:53:17.366408 37c8           Options.merge_operator: None
+2019/02/07-16:53:17.366419 37c8        Options.compaction_filter: None
+2019/02/07-16:53:17.366430 37c8        Options.compaction_filter_factory: None
+2019/02/07-16:53:17.366440 37c8         Options.memtable_factory: SkipListFactory
+2019/02/07-16:53:17.366451 37c8            Options.table_factory: BlockBasedTable
+2019/02/07-16:53:17.366498 37c8            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (00000261525B2F30)
   cache_index_and_filter_blocks: 0
   cache_index_and_filter_blocks_with_high_priority: 0
   pin_l0_filter_and_index_blocks_in_cache: 0
@@ -96,7 +96,7 @@
   hash_index_allow_collision: 1
   checksum: 1
   no_block_cache: 0
-  block_cache: 000002263BC348E0
+  block_cache: 0000026151DC7D70
   block_cache_name: LRUCache
   block_cache_options:
     capacity : 8388608
@@ -119,75 +119,72 @@
   format_version: 2
   enable_index_compression: 1
   block_align: 0
-2019/02/07-15:52:30.981877 3c04        Options.write_buffer_size: 67108864
-2019/02/07-15:52:30.981891 3c04  Options.max_write_buffer_number: 2
-2019/02/07-15:52:30.981903 3c04          Options.compression: Snappy
-2019/02/07-15:52:30.981914 3c04                  Options.bottommost_compression: Disabled
-2019/02/07-15:52:30.981926 3c04       Options.prefix_extractor: nullptr
-2019/02/07-15:52:30.981937 3c04   Options.memtable_insert_with_hint_prefix_extractor: nullptr
-2019/02/07-15:52:30.981948 3c04             Options.num_levels: 7
-2019/02/07-15:52:30.981959 3c04        Options.min_write_buffer_number_to_merge: 1
-2019/02/07-15:52:30.981970 3c04     Options.max_write_buffer_number_to_maintain: 0
-2019/02/07-15:52:30.981982 3c04            Options.compression_opts.window_bits: -14
-2019/02/07-15:52:30.981993 3c04                  Options.compression_opts.level: -1
-2019/02/07-15:52:30.982004 3c04               Options.compression_opts.strategy: 0
-2019/02/07-15:52:30.982020 3c04         Options.compression_opts.max_dict_bytes: 0
-2019/02/07-15:52:30.982032 3c04         Options.compression_opts.zstd_max_train_bytes: 0
-2019/02/07-15:52:30.982043 3c04      Options.level0_file_num_compaction_trigger: 4
-2019/02/07-15:52:30.982055 3c04          Options.level0_slowdown_writes_trigger: 20
-2019/02/07-15:52:30.982066 3c04              Options.level0_stop_writes_trigger: 36
-2019/02/07-15:52:30.982077 3c04                   Options.target_file_size_base: 67108864
-2019/02/07-15:52:30.982089 3c04             Options.target_file_size_multiplier: 1
-2019/02/07-15:52:30.982100 3c04                Options.max_bytes_for_level_base: 268435456
-2019/02/07-15:52:30.982111 3c04 Options.level_compaction_dynamic_level_bytes: 0
-2019/02/07-15:52:30.982123 3c04          Options.max_bytes_for_level_multiplier: 10.000000
-2019/02/07-15:52:30.982135 3c04 Options.max_bytes_for_level_multiplier_addtl[0]: 1
-2019/02/07-15:52:30.982147 3c04 Options.max_bytes_for_level_multiplier_addtl[1]: 1
-2019/02/07-15:52:30.982165 3c04 Options.max_bytes_for_level_multiplier_addtl[2]: 1
-2019/02/07-15:52:30.982177 3c04 Options.max_bytes_for_level_multiplier_addtl[3]: 1
-2019/02/07-15:52:30.982189 3c04 Options.max_bytes_for_level_multiplier_addtl[4]: 1
-2019/02/07-15:52:30.982200 3c04 Options.max_bytes_for_level_multiplier_addtl[5]: 1
-2019/02/07-15:52:30.982211 3c04 Options.max_bytes_for_level_multiplier_addtl[6]: 1
-2019/02/07-15:52:30.982223 3c04       Options.max_sequential_skip_in_iterations: 8
-2019/02/07-15:52:30.982234 3c04                    Options.max_compaction_bytes: 1677721600
-2019/02/07-15:52:30.982245 3c04                        Options.arena_block_size: 8388608
-2019/02/07-15:52:30.982257 3c04   Options.soft_pending_compaction_bytes_limit: 68719476736
-2019/02/07-15:52:30.982268 3c04   Options.hard_pending_compaction_bytes_limit: 274877906944
-2019/02/07-15:52:30.982279 3c04       Options.rate_limit_delay_max_milliseconds: 100
-2019/02/07-15:52:30.982291 3c04                Options.disable_auto_compactions: 0
-2019/02/07-15:52:30.982303 3c04                        Options.compaction_style: kCompactionStyleLevel
-2019/02/07-15:52:30.982315 3c04                          Options.compaction_pri: kByCompensatedSize
-2019/02/07-15:52:30.982327 3c04 Options.compaction_options_universal.size_ratio: 1
-2019/02/07-15:52:30.982338 3c04 Options.compaction_options_universal.min_merge_width: 2
-2019/02/07-15:52:30.982350 3c04 Options.compaction_options_universal.max_merge_width: 4294967295
-2019/02/07-15:52:30.982361 3c04 Options.compaction_options_universal.max_size_amplification_percent: 200
-2019/02/07-15:52:30.982373 3c04 Options.compaction_options_universal.compression_size_percent: -1
-2019/02/07-15:52:30.982385 3c04 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
-2019/02/07-15:52:30.982398 3c04 Options.compaction_options_fifo.max_table_files_size: 1073741824
-2019/02/07-15:52:30.982410 3c04 Options.compaction_options_fifo.allow_compaction: 0
-2019/02/07-15:52:30.982421 3c04 Options.compaction_options_fifo.ttl: 0
-2019/02/07-15:52:30.982433 3c04                   Options.table_properties_collectors: 
-2019/02/07-15:52:30.982444 3c04                   Options.inplace_update_support: 0
-2019/02/07-15:52:30.982455 3c04                 Options.inplace_update_num_locks: 10000
-2019/02/07-15:52:30.982467 3c04               Options.memtable_prefix_bloom_size_ratio: 0.000000
-2019/02/07-15:52:30.982478 3c04   Options.memtable_huge_page_size: 0
-2019/02/07-15:52:30.982490 3c04                           Options.bloom_locality: 0
-2019/02/07-15:52:30.982501 3c04                    Options.max_successive_merges: 0
-2019/02/07-15:52:30.982512 3c04                Options.optimize_filters_for_hits: 0
-2019/02/07-15:52:30.982523 3c04                Options.paranoid_file_checks: 0
-2019/02/07-15:52:30.982535 3c04                Options.force_consistency_checks: 0
-2019/02/07-15:52:30.982546 3c04                Options.report_bg_io_stats: 0
-2019/02/07-15:52:30.982557 3c04                               Options.ttl: 0
-2019/02/07-15:52:30.982839 3c04 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\version_set.cc:3361] Recovered from manifest file:db.ss1\secretstore\db/MANIFEST-000008 succeeded,manifest_file_number is 8, next_file_number is 10, last_sequence is 1, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
-2019/02/07-15:52:30.982860 3c04 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 7
-2019/02/07-15:52:30.983086 3c04 EVENT_LOG_v1 {"time_micros": 1549551150983079, "job": 1, "event": "recovery_started", "log_files": [9]}
-2019/02/07-15:52:30.983116 3c04 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_open.cc:551] Recovering log #9 mode 2
-2019/02/07-15:52:30.983431 3c04 [DEBUG] [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_open.cc:919] [default] [WriteLevel0TableForRecovery] Level-0 table #10: started
-2019/02/07-15:52:30.985753 3c04 EVENT_LOG_v1 {"time_micros": 1549551150985736, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 10, "file_size": 2291, "table_properties": {"data_size": 1363, "index_size": 28, "filter_size": 0, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 1306, "raw_average_value_size": 1306, "num_data_blocks": 1, "num_entries": 1, "filter_policy_name": "", "kDeletedKeys": "0", "kMergeOperands": "0"}}
-2019/02/07-15:52:30.985776 3c04 [DEBUG] [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_open.cc:959] [default] [WriteLevel0TableForRecovery] Level-0 table #10: 2291 bytes OK
-2019/02/07-15:52:30.985923 3c04 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\version_set.cc:2847] Creating manifest 11
-2019/02/07-15:52:30.991716 3c04 EVENT_LOG_v1 {"time_micros": 1549551150991696, "job": 1, "event": "recovery_finished"}
-2019/02/07-15:52:30.992719 3c04 [DEBUG] [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_files.cc:266] [JOB 2] Delete db.ss1\secretstore\db//MANIFEST-000008 type=3 #8 -- OK
-2019/02/07-15:52:30.992990 3c04 [DEBUG] [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_files.cc:266] [JOB 2] Delete db.ss1\secretstore\db//000009.log type=0 #9 -- OK
-2019/02/07-15:52:30.993026 3c04 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_files.cc:477] [JOB 2] Delete info log file db.ss1\secretstore\db//LOG.old.1549551150975340
-2019/02/07-15:52:30.999338 3c04 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_open.cc:1219] DB pointer 000002263BB58470
+2019/02/07-16:53:17.366544 37c8        Options.write_buffer_size: 67108864
+2019/02/07-16:53:17.366557 37c8  Options.max_write_buffer_number: 2
+2019/02/07-16:53:17.366568 37c8          Options.compression: Snappy
+2019/02/07-16:53:17.366579 37c8                  Options.bottommost_compression: Disabled
+2019/02/07-16:53:17.366590 37c8       Options.prefix_extractor: nullptr
+2019/02/07-16:53:17.366600 37c8   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/02/07-16:53:17.366611 37c8             Options.num_levels: 7
+2019/02/07-16:53:17.366622 37c8        Options.min_write_buffer_number_to_merge: 1
+2019/02/07-16:53:17.366632 37c8     Options.max_write_buffer_number_to_maintain: 0
+2019/02/07-16:53:17.366643 37c8            Options.compression_opts.window_bits: -14
+2019/02/07-16:53:17.366654 37c8                  Options.compression_opts.level: -1
+2019/02/07-16:53:17.366664 37c8               Options.compression_opts.strategy: 0
+2019/02/07-16:53:17.366675 37c8         Options.compression_opts.max_dict_bytes: 0
+2019/02/07-16:53:17.366685 37c8         Options.compression_opts.zstd_max_train_bytes: 0
+2019/02/07-16:53:17.366696 37c8      Options.level0_file_num_compaction_trigger: 4
+2019/02/07-16:53:17.366707 37c8          Options.level0_slowdown_writes_trigger: 20
+2019/02/07-16:53:17.366717 37c8              Options.level0_stop_writes_trigger: 36
+2019/02/07-16:53:17.366728 37c8                   Options.target_file_size_base: 67108864
+2019/02/07-16:53:17.366739 37c8             Options.target_file_size_multiplier: 1
+2019/02/07-16:53:17.366750 37c8                Options.max_bytes_for_level_base: 268435456
+2019/02/07-16:53:17.366760 37c8 Options.level_compaction_dynamic_level_bytes: 0
+2019/02/07-16:53:17.366771 37c8          Options.max_bytes_for_level_multiplier: 10.000000
+2019/02/07-16:53:17.366783 37c8 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/02/07-16:53:17.366794 37c8 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/02/07-16:53:17.366805 37c8 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/02/07-16:53:17.366816 37c8 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/02/07-16:53:17.366827 37c8 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/02/07-16:53:17.366837 37c8 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/02/07-16:53:17.366848 37c8 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/02/07-16:53:17.366859 37c8       Options.max_sequential_skip_in_iterations: 8
+2019/02/07-16:53:17.366870 37c8                    Options.max_compaction_bytes: 1677721600
+2019/02/07-16:53:17.366880 37c8                        Options.arena_block_size: 8388608
+2019/02/07-16:53:17.366891 37c8   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/02/07-16:53:17.366902 37c8   Options.hard_pending_compaction_bytes_limit: 274877906944
+2019/02/07-16:53:17.366913 37c8       Options.rate_limit_delay_max_milliseconds: 100
+2019/02/07-16:53:17.366923 37c8                Options.disable_auto_compactions: 0
+2019/02/07-16:53:17.366935 37c8                        Options.compaction_style: kCompactionStyleLevel
+2019/02/07-16:53:17.366947 37c8                          Options.compaction_pri: kByCompensatedSize
+2019/02/07-16:53:17.366957 37c8 Options.compaction_options_universal.size_ratio: 1
+2019/02/07-16:53:17.366968 37c8 Options.compaction_options_universal.min_merge_width: 2
+2019/02/07-16:53:17.366979 37c8 Options.compaction_options_universal.max_merge_width: 4294967295
+2019/02/07-16:53:17.366990 37c8 Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/02/07-16:53:17.367001 37c8 Options.compaction_options_universal.compression_size_percent: -1
+2019/02/07-16:53:17.367012 37c8 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/02/07-16:53:17.367024 37c8 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2019/02/07-16:53:17.367035 37c8 Options.compaction_options_fifo.allow_compaction: 0
+2019/02/07-16:53:17.367046 37c8 Options.compaction_options_fifo.ttl: 0
+2019/02/07-16:53:17.367057 37c8                   Options.table_properties_collectors: 
+2019/02/07-16:53:17.367068 37c8                   Options.inplace_update_support: 0
+2019/02/07-16:53:17.367078 37c8                 Options.inplace_update_num_locks: 10000
+2019/02/07-16:53:17.367089 37c8               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/02/07-16:53:17.367100 37c8   Options.memtable_huge_page_size: 0
+2019/02/07-16:53:17.367111 37c8                           Options.bloom_locality: 0
+2019/02/07-16:53:17.367121 37c8                    Options.max_successive_merges: 0
+2019/02/07-16:53:17.367132 37c8                Options.optimize_filters_for_hits: 0
+2019/02/07-16:53:17.367143 37c8                Options.paranoid_file_checks: 0
+2019/02/07-16:53:17.367153 37c8                Options.force_consistency_checks: 0
+2019/02/07-16:53:17.367164 37c8                Options.report_bg_io_stats: 0
+2019/02/07-16:53:17.367175 37c8                               Options.ttl: 0
+2019/02/07-16:53:17.367690 37c8 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\version_set.cc:3361] Recovered from manifest file:db.ss1\secretstore\db/MANIFEST-000017 succeeded,manifest_file_number is 17, next_file_number is 19, last_sequence is 3, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2019/02/07-16:53:17.367711 37c8 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\version_set.cc:3369] Column family [default] (ID 0), log number is 16
+2019/02/07-16:53:17.367868 37c8 EVENT_LOG_v1 {"time_micros": 1549554797367861, "job": 1, "event": "recovery_started", "log_files": [18]}
+2019/02/07-16:53:17.367883 37c8 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_open.cc:551] Recovering log #18 mode 2
+2019/02/07-16:53:17.367976 37c8 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\version_set.cc:2847] Creating manifest 20
+2019/02/07-16:53:17.373542 37c8 EVENT_LOG_v1 {"time_micros": 1549554797373536, "job": 1, "event": "recovery_finished"}
+2019/02/07-16:53:17.374511 37c8 [DEBUG] [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_files.cc:266] [JOB 2] Delete db.ss1\secretstore\db//MANIFEST-000017 type=3 #17 -- OK
+2019/02/07-16:53:17.374744 37c8 [DEBUG] [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_files.cc:266] [JOB 2] Delete db.ss1\secretstore\db//000018.log type=0 #18 -- OK
+2019/02/07-16:53:17.374790 37c8 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_files.cc:477] [JOB 2] Delete info log file db.ss1\secretstore\db//LOG.old.1549554797360328
+2019/02/07-16:53:17.379808 37c8 [c:\users\yahya\.cargo\registry\src\github.com-1ecc6299db9ec823\parity-rocksdb-sys-0.5.5\rocksdb\db\db_impl_open.cc:1219] DB pointer 00000261523B24D0

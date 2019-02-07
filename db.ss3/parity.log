@@ -1,48 +1,142 @@
-2019-02-07 15:52:47  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
-2019-02-07 15:52:47  main INFO parity_ethereum::run  Keys path db.ss3\keys\DevelopmentChain
-2019-02-07 15:52:47  main INFO parity_ethereum::run  DB path db.ss3\chains\DevelopmentChain\db\1484bce8c021f2ca
-2019-02-07 15:52:47  main INFO parity_ethereum::run  State DB configuration: fast
-2019-02-07 15:52:47  main INFO parity_ethereum::run  Operating mode: active
-2019-02-07 15:52:47  main INFO ethcore_service::service  Configured for DevelopmentChain using InstantSeal engine
-2019-02-07 15:52:47  main INFO parity_ethereum::secretstore::server  Starting SecretStore node: 0xc1bcf84d34d7573f9c6b5ae3388ec3a615217448658c113d7df71404c34eacca1e71d8d85230eab66f021316080aa0c491dbe60ff1e9b2bc61d68f793b24e4f2
-2019-02-07 15:52:51  IO Worker #3 DEBUG txqueue  Re-computing pending set for block: 2
-2019-02-07 15:52:52  IO Worker #2 INFO network  Public node URL: enode://4295cf1b34c498304c466728075dd0cca46f84a822d6d80f948dce9d002c1bf3c1789c14fea45eba13e4f5f844a260393bac26883ed39ce16256f1ab80e68887@127.0.0.1:30303
-2019-02-07 15:53:22  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:53:52  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:54:22  IO Worker #1 INFO import     3/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:54:52  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:55:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:55:52  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:56:22  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:56:52  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:57:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:57:52  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:58:22  IO Worker #1 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:58:52  IO Worker #0 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:59:22  IO Worker #3 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 15:59:52  IO Worker #2 INFO import     4/25 peers      9 KiB chain   20 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:00:14  tokio-runtime-worker-1 INFO secretstore_net  0xc1bc…e4f2: decryption session completed
-2019-02-07 16:00:14  tokio-runtime-worker-0 WARN secretstore_net  0xc1bc…e4f2: decryption session read error 'no active session with given id' when requested for session from node 0x0040…05cd
-2019-02-07 16:00:22  IO Worker #3 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:00:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:01:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:01:52  IO Worker #3 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:02:22  IO Worker #1 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:02:52  IO Worker #3 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:03:22  IO Worker #1 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:03:52  IO Worker #3 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:03:57  tokio-runtime-worker-1 INFO secretstore_net  0xc1bc…e4f2: decryption session completed
-2019-02-07 16:03:57  tokio-runtime-worker-1 WARN secretstore_net  0xc1bc…e4f2: decryption session read error 'no active session with given id' when requested for session from node 0x0040…05cd
-2019-02-07 16:04:22  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:04:52  IO Worker #3 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:05:22  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:05:52  IO Worker #0 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:06:22  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:06:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:07:22  IO Worker #0 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:07:52  IO Worker #2 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:08:22  IO Worker #1 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:08:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   21 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
-2019-02-07 16:09:18  tokio-runtime-worker-1 WARN secretstore_net  0xc1bc…e4f2: network error 'An existing connection was forcibly closed by the remote host. (os error 10054)' when reading message from node 0x0040…05cd
-2019-02-07 16:09:19  tokio-runtime-worker-2 WARN secretstore_net  0xc1bc…e4f2: network error 'An existing connection was forcibly closed by the remote host. (os error 10054)' when reading message from node 0x1c4e…b7f0
-2019-02-07 16:09:20  main INFO parity_ethereum::run  Finishing work, please wait...
+2019-02-07 16:51:54  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
+2019-02-07 16:51:54  main INFO parity_ethereum::run  Keys path db.ss3\keys\DevelopmentChain
+2019-02-07 16:51:54  main INFO parity_ethereum::run  DB path db.ss3\chains\DevelopmentChain\db\1484bce8c021f2ca
+2019-02-07 16:51:54  main INFO parity_ethereum::run  State DB configuration: fast
+2019-02-07 16:51:54  main INFO parity_ethereum::run  Operating mode: active
+2019-02-07 16:51:54  main INFO ethcore_service::service  Configured for DevelopmentChain using InstantSeal engine
+2019-02-07 16:51:54  main INFO parity_ethereum::secretstore::server  Starting SecretStore node: 0xc1bcf84d34d7573f9c6b5ae3388ec3a615217448658c113d7df71404c34eacca1e71d8d85230eab66f021316080aa0c491dbe60ff1e9b2bc61d68f793b24e4f2
+2019-02-07 16:51:58  IO Worker #0 DEBUG txqueue  Re-computing pending set for block: 2
+2019-02-07 16:51:59  IO Worker #2 INFO network  Public node URL: enode://4295cf1b34c498304c466728075dd0cca46f84a822d6d80f948dce9d002c1bf3c1789c14fea45eba13e4f5f844a260393bac26883ed39ce16256f1ab80e68887@127.0.0.1:30303
+2019-02-07 16:52:17  Verifier #2 DEBUG txqueue  Re-computing pending set for block: 3
+2019-02-07 16:52:17  Verifier #2 INFO import  Imported #3 0x4452…4d6e (1 txs, 0.21 Mgas, 1 ms, 1.17 KiB)
+2019-02-07 16:52:17  IO Worker #1 DEBUG txqueue  Removed 0 stalled transactions. Pool: 0/8192 (0 senders; 0/4096 kB) [minGasPrice: 0 Mwei, maxGas: 8000000]
+
+2019-02-07 16:52:18  IO Worker #0 DEBUG txqueue  Re-computing pending set for block: 3
+2019-02-07 16:52:24  IO Worker #0 INFO import     4/25 peers     12 KiB chain   28 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:52:54  IO Worker #0 INFO import     4/25 peers     12 KiB chain   28 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:53:11  tokio-runtime-worker-1 WARN secretstore_net  0xc1bc…e4f2: network error 'An existing connection was forcibly closed by the remote host. (os error 10054)' when reading message from node 0x0040…05cd
+2019-02-07 16:53:12  tokio-runtime-worker-1 WARN secretstore_net  0xc1bc…e4f2: network error 'An existing connection was forcibly closed by the remote host. (os error 10054)' when reading message from node 0x1c4e…b7f0
+2019-02-07 16:53:13  main INFO parity_ethereum::run  Finishing work, please wait...
+2019-02-07 16:53:22  main INFO parity_ethereum::run  Starting Parity-Ethereum/v2.3.0-unstable-10657d96c-20190115/x86_64-windows-msvc/rustc1.31.1
+2019-02-07 16:53:22  main INFO parity_ethereum::run  Keys path db.ss3\keys\DevelopmentChain
+2019-02-07 16:53:22  main INFO parity_ethereum::run  DB path db.ss3\chains\DevelopmentChain\db\1484bce8c021f2ca
+2019-02-07 16:53:22  main INFO parity_ethereum::run  State DB configuration: fast
+2019-02-07 16:53:22  main INFO parity_ethereum::run  Operating mode: active
+2019-02-07 16:53:22  main INFO ethcore_service::service  Configured for DevelopmentChain using InstantSeal engine
+2019-02-07 16:53:22  main INFO parity_ethereum::secretstore::server  Starting SecretStore node: 0xc1bcf84d34d7573f9c6b5ae3388ec3a615217448658c113d7df71404c34eacca1e71d8d85230eab66f021316080aa0c491dbe60ff1e9b2bc61d68f793b24e4f2
+2019-02-07 16:53:27  IO Worker #2 INFO network  Public node URL: enode://4295cf1b34c498304c466728075dd0cca46f84a822d6d80f948dce9d002c1bf3c1789c14fea45eba13e4f5f844a260393bac26883ed39ce16256f1ab80e68887@127.0.0.1:30303
+2019-02-07 16:53:27  IO Worker #0 DEBUG txqueue  Re-computing pending set for block: 3
+2019-02-07 16:53:52  IO Worker #2 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:54:22  IO Worker #3 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:54:52  IO Worker #3 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:55:22  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:55:52  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:56:22  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:56:52  IO Worker #3 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:57:23  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:57:58  IO Worker #3 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:58:33  IO Worker #3 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:59:08  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 16:59:43  IO Worker #0 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:00:13  IO Worker #3 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:00:47  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:01:00  tokio-runtime-worker-2 INFO secretstore_net  0xc1bc…e4f2: version negotiation session completed
+2019-02-07 17:01:00  tokio-runtime-worker-2 WARN secretstore_net  0xc1bc…e4f2: decryption session read error 'no active session with given id' when requested for session from node 0x0040…05cd
+2019-02-07 17:01:18  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:01:48  IO Worker #0 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:02:02  tokio-runtime-worker-0 WARN ethcore_secretstore::key_server_cluster::client_sessions::generation_session  0xc1bc…e4f2: generation session failed with timeout
+2019-02-07 17:02:18  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:02:19  tokio-runtime-worker-2 INFO secretstore_net  0xc1bc…e4f2: version negotiation session completed
+2019-02-07 17:02:19  tokio-runtime-worker-2 WARN secretstore_net  0xc1bc…e4f2: decryption session read error 'no active session with given id' when requested for session from node 0x0040…05cd
+2019-02-07 17:02:19  tokio-runtime-worker-3 INFO secretstore_net  0xc1bc…e4f2: generation session completed
+2019-02-07 17:02:19  tokio-runtime-worker-3 INFO secretstore_net  0xc1bc…e4f2: encryption session completed
+2019-02-07 17:02:48  IO Worker #0 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:03:18  IO Worker #3 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:03:48  IO Worker #2 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:04:18  IO Worker #2 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:04:48  IO Worker #2 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:05:18  IO Worker #0 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:05:48  IO Worker #2 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:06:18  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:06:53  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:07:23  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:07:53  IO Worker #3 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:08:23  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:08:53  IO Worker #3 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:09:28  IO Worker #0 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:09:58  IO Worker #3 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:10:28  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:10:58  IO Worker #0 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:11:28  IO Worker #0 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:11:58  IO Worker #2 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:12:28  IO Worker #2 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:12:58  IO Worker #1 INFO import     4/25 peers      9 KiB chain   27 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:13:18  Verifier #2 DEBUG txqueue  Re-computing pending set for block: 4
+2019-02-07 17:13:18  IO Worker #1 DEBUG txqueue  Removed 0 stalled transactions. Pool: 0/8192 (0 senders; 0/4096 kB) [minGasPrice: 0 Mwei, maxGas: 8000000]
+
+2019-02-07 17:13:18  Verifier #2 INFO import  Imported #4 0xdb0b…2884 (1 txs, 1.13 Mgas, 2 ms, 4.40 KiB)
+2019-02-07 17:13:19  IO Worker #3 DEBUG txqueue  Re-computing pending set for block: 4
+2019-02-07 17:13:28  IO Worker #0 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:13:58  IO Worker #0 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:14:33  IO Worker #0 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:15:03  IO Worker #0 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:15:33  IO Worker #1 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:16:08  IO Worker #1 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:16:38  IO Worker #1 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:17:08  IO Worker #3 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:17:38  IO Worker #1 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:18:08  IO Worker #0 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:18:43  IO Worker #3 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:19:18  IO Worker #0 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:19:48  IO Worker #3 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:20:23  IO Worker #1 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:20:53  IO Worker #1 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:21:23  IO Worker #3 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:21:54  IO Worker #2 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:22:24  IO Worker #2 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:22:54  IO Worker #3 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:23:24  IO Worker #3 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:23:59  IO Worker #3 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:24:29  IO Worker #2 INFO import     4/25 peers     13 KiB chain   44 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:24:39  Verifier #3 DEBUG txqueue  Re-computing pending set for block: 5
+2019-02-07 17:24:39  Verifier #3 INFO import  Imported #5 0xfcd1…820a (1 txs, 0.11 Mgas, 0 ms, 1.03 KiB)
+2019-02-07 17:24:39  IO Worker #1 DEBUG txqueue  Removed 0 stalled transactions. Pool: 0/8192 (0 senders; 0/4096 kB) [minGasPrice: 0 Mwei, maxGas: 8000000]
+
+2019-02-07 17:24:40  IO Worker #2 DEBUG txqueue  Re-computing pending set for block: 5
+2019-02-07 17:24:59  IO Worker #1 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:25:29  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:25:59  IO Worker #1 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:26:29  IO Worker #0 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:26:59  IO Worker #3 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:27:29  IO Worker #1 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:28:04  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:28:39  IO Worker #3 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:29:09  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:29:44  IO Worker #3 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:30:14  IO Worker #3 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:30:44  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:31:14  IO Worker #1 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:31:44  IO Worker #3 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:32:19  IO Worker #1 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:32:49  IO Worker #3 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:33:24  IO Worker #1 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:33:54  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:34:24  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:34:54  IO Worker #1 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:35:24  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:35:54  IO Worker #1 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:36:24  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:36:59  IO Worker #0 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:37:29  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:37:59  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:38:29  IO Worker #1 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:39:04  IO Worker #1 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:39:34  IO Worker #3 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:40:04  IO Worker #0 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:40:34  IO Worker #3 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:41:09  IO Worker #2 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:41:44  IO Worker #3 INFO import     4/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:42:13  tokio-runtime-worker-3 WARN secretstore_net  0xc1bc…e4f2: network error 'An existing connection was forcibly closed by the remote host. (os error 10054)' when reading message from node 0x0040…05cd
+2019-02-07 17:42:14  tokio-runtime-worker-3 WARN secretstore_net  0xc1bc…e4f2: network error 'An existing connection was forcibly closed by the remote host. (os error 10054)' when reading message from node 0x1c4e…b7f0
+2019-02-07 17:42:14  IO Worker #3 INFO import     1/25 peers     17 KiB chain   46 KiB db  0 bytes queue   10 KiB sync  RPC:  0 conn,    0 req/s,    0 µs
+2019-02-07 17:42:15  main INFO parity_ethereum::run  Finishing work, please wait...
